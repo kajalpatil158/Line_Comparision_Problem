@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Calculate_Equality_Of_Two_Lines
+namespace Calculate_Equal_Greter_Less
 {
     class Program
     {
@@ -33,9 +33,13 @@ namespace Calculate_Equality_Of_Two_Lines
             {
                 Console.WriteLine("Two Lines Are Equal!!");
             }
+            else if (X > A && Y > B)
+            {
+                Console.WriteLine("Line One Is Greter Than Line Two & Line Two Smaller Than Line One");
+            }
             else
             {
-                Console.WriteLine("Two Lines Are Not Equal!!");
+                Console.WriteLine("Line Two Is Greter Than Line One & Line One Is Smaller Than Line Two!!");
             }
         }
     }
